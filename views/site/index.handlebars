@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+     <div id="up-panel"></div>
+    <div class="container my-5">
+        <div class="text-center mb-5">
+            <img src="/images/arcelik_logo.png" alt="Arçelik" width="100">
+        </div>
+        <h1 class="text-center mb-4">Login</h1>
+        <div class="row justify-content-center">
+          <!--deneme123-->
+            <br>
+            <div class="col-md-6">
+                <form method="POST" action="/dashboard">
+                  <p style="color: red;">{{ error }}</p>
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" name="password" required>
+                    </div>
+                    <button type="submit" class="btn btn-danger btn-block">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
